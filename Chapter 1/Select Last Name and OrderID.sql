@@ -1,4 +1,4 @@
-SELECT LastName,
-  OrderId
-FROM Customer
-  JOIN Orders on Customer.CustomerID = Orders.CustomerId;
+SELECT c.LastName,
+  o.OrderId
+FROM Customer c
+  JOIN Orders o on c.CustomerID = o.CustomerId;
