@@ -1,4 +1,5 @@
-SELECT UPPER(
+SELECT 
+  UPPER(
     CONCAT(
       Address,
       ' ',
@@ -10,4 +11,4 @@ SELECT UPPER(
     )
   ) AS NEW_ADDRESS
 from Customer
-LIMIT 10
+LIMIT 10;
