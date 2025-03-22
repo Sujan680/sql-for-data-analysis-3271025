@@ -1,4 +1,5 @@
-SELECT State,
+SELECT 
+  State,
   AVG(TotalDue) as Avg_Due
 FROM Customer C
   JOIN Orders O ON O.CustomerID = C.CustomerID
