@@ -1,3 +1,7 @@
-SELECT OrderID, CreationDate
-FROM Orders
-Where Year(CreationDate) > (Year(Now()) - 10);
+SELECT 
+  OrderID, 
+  CreationDate
+FROM 
+  Orders
+Where 
+  Year(CreationDate) > (Year(Now()) - 10);

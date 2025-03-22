@@ -1,3 +1,7 @@
-SELECT OrderID, CreationDate
-FROM Orders
-Where CreationDate > Now()
+SELECT 
+  OrderID, 
+  CreationDate
+FROM 
+  Orders
+Where 
+  CreationDate > Now();
