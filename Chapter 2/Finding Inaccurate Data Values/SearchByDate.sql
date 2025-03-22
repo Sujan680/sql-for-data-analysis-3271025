@@ -1,3 +1,5 @@
 SELECT *
-FROM Orders
-WHERE CreationDate > "2016-01-06";
+FROM 
+  Orders
+WHERE 
+  CreationDate > "2016-01-06";
