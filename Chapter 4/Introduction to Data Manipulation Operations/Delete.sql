@@ -1,2 +1,5 @@
-DELETE FROM Customer
-WHERE CustomerID = 9999;
+DELETE 
+FROM 
+  Customer
+WHERE 
+  CustomerID = 9999;

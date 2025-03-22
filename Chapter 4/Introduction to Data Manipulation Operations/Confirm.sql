@@ -1,3 +1,5 @@
 SELECT *
-FROM Customer
-WHERE CustomerID = 9999;
+FROM 
+  Customer
+WHERE 
+  CustomerID = 9999;

@@ -1,4 +1,5 @@
-INSERT INTO Customer (
+INSERT INTO   
+Customer (
     CustomerID,
     FirstName,
     LastName,
@@ -19,4 +20,4 @@ VALUES (
     'Little Rock',
     'AR',
     '72209'
-  )
+  );
